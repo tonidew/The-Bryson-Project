@@ -1,0 +1,27 @@
+
+<div>
+<h5>Share your tips/comments on the venue or event of your choice:</h5>
+<textarea class="panel-body" ng-model="text"></textarea>
+<div>
+	<button class="submitComment" type="button" ng-click="submitComment()">Submit Comment</button>
+	<br>
+	<br>
+  	<!-- <button class="deleteComment" type="button" ng-click="deleteComment()">Delete Comment</button> -->
+</div>
+</div>
+
+<!-- Logging out a user -->
+
+  <div class="logoutButton">
+  <button>
+    <a href="#/login" ng-click="logOut()">
+      <span ng-if="isAuthenticated()"></span>Log Out</button>
+    </a>
+  </div>
+
+
+<!-- <div>
+  <ul ng-repeat= "">
+    <li>{{forum.text}}</li>
+  </ul>
+</div> -->

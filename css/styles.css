@@ -1,0 +1,103 @@
+#container {
+  box-sizing: border-box;
+  margin:10px auto;
+  width: 90%;
+  padding: 0;
+
+}
+
+body {
+	background-color: tan;
+   
+}
+
+
+
+.page-header {
+	background-color: tan;
+	font-size: 2em;
+	border-bottom: solid brown .1em;
+	border-top: solid brown .2em;
+	box-shadow: 20px 5px 5px #8888;
+}
+
+.smallHed {
+	font-family: Arial;
+	font-style: lighter;
+	font-size: .75em;
+	text-align: left;
+	font-style: italic;
+}
+
+.nameBryson {
+	font-family: "Times";
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 0%;
+	font-size: 3em;
+}
+
+
+
+
+.h1 {
+
+}
+
+.image-responsive {
+	border-radius: 7%;
+	float: right;
+	margin-left: 5%;
+	margin-bottom: 45%;
+	margin-right: 33%;
+
+}
+
+.mainImage {
+	margin-left: 1%;
+}
+
+
+.list-group {
+	margin-right: 3%;
+}
+
+.list-group-item {
+	background-color: tan;
+	font-weight: bolder;
+	font-size: 1.3em;
+	max-width: 27%;
+	margin-bottom: 2%;
+	margin-left: 3%;
+	margin-top: 1%;
+	margin-right: 18%;
+	/*float: left;*/
+
+}
+
+
+/*
+
+.navigation {
+	text-align: center;
+	opacity: .9;
+	float: both;
+	background-color: rgba(255, 153, 0, 0.6);
+}
+
+.navigation a {
+	font-size: 1.2em;
+	color: white;
+	text-decoration: none;
+	background-color: rgba(255, 153, 0, 0.6);
+}
+
+/*/*/* Pipes between navigation */*/
+/*.navigation a:after {*/
+	/*content: " | ";*/
+/*}*/
+*/
+/*.navigation a:nth-of-type(5):after {*/
+	/*content: "";*/
+/*}
+*/
