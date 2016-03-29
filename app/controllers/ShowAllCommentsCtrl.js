@@ -4,7 +4,7 @@ app.controller ("ShowAllCommentsCtrl",
 	["$q",
 	"$scope",
 	"$http",
-
+ 
 
   function($q, $scope, $http) {
     $scope.text = "";

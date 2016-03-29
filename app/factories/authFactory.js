@@ -2,6 +2,7 @@
 
 app.factory("authFactory", (firebaseURL) => {
   let ref = new Firebase(firebaseURL);
+  let currentUserData = null;
 
   return {
     /*
@@ -16,6 +17,13 @@ app.factory("authFactory", (firebaseURL) => {
         return false;
       }
     },
+    getUser () {
+      return currentUserData;
+    },
+
+
+
+
     /*
       Authenticate the client via Firebase
      */
@@ -29,6 +37,7 @@ app.factory("authFactory", (firebaseURL) => {
             reject(error);
           } else {
             console.log("authWithPassword method completed successfully");
+            currentUserData = authData;
             resolve(authData);
           }
         });
@@ -36,7 +45,4 @@ app.factory("authFactory", (firebaseURL) => {
     }
   };
 });
-
-
-
 

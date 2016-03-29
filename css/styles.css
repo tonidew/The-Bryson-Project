@@ -1,7 +1,7 @@
 #container {
   box-sizing: border-box;
-  margin:10px auto;
-  width: 90%;
+  margin: 8px auto;
+  width: 95%;
   padding: 0;
 
 }
@@ -10,8 +10,6 @@ body {
 	background-color: tan;
    
 }
-
-
 
 .page-header {
 	background-color: tan;
@@ -37,11 +35,12 @@ body {
 	font-size: 3em;
 }
 
-
-
-
 .h1 {
+	
+}
 
+.introHed {
+	margin-right: 50%;
 }
 
 .image-responsive {
@@ -75,6 +74,27 @@ body {
 
 }
 
+/*.hidden {
+	display: none;
+}*/
+
+.intro {
+	margin-right: 50%;
+}
+
+.rightScreen {
+	float: right;
+	margin-left: 35%;
+	margin-bottom: 85%;
+	margin-top: 2%;
+}
+
+
+
+/*.rightScreen {
+	float: right ;
+}
+*/
 
 /*
 

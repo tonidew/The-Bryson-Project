@@ -1,14 +1,32 @@
+<!-- This button displays the reader comments and allows the user to read the comments without submitting a comment -->
+
+
+
 
 <div>
 <h5>Share your tips/comments on the venue or event of your choice:</h5>
 <textarea class="panel-body" ng-model="text"></textarea>
 <div>
-	<button class="submitComment" type="button" ng-click="submitComment()">Submit Comment</button>
+	<button class="submitComment" type="button" ng-click="submitComment()">Submit Comment</button> 
+  <br>
 	<br>
-	<br>
-  	<!-- <button class="deleteComment" type="button" ng-click="deleteComment()">Delete Comment</button> -->
+ 
+
+
+
 </div>
 </div>
+
+<!-- Read comments -->
+<section>
+<a href="http://localhost:8080/#/submitComment"><button class="forumButton">Read Forum Comments</button></a>
+</section>
+<br>
+<br>
+
+
+
+
 
 <!-- Logging out a user -->
 
@@ -18,10 +36,17 @@
       <span ng-if="isAuthenticated()"></span>Log Out</button>
     </a>
   </div>
-
+<br>
+<br>
+<br>
+    
+ 
 
 <!-- <div>
   <ul ng-repeat= "">
     <li>{{forum.text}}</li>
   </ul>
 </div> -->
+
+
+

@@ -50,8 +50,6 @@ app.controller("NavigatingNashvilleCtrl",
           $location.path("/forum");
           $scope.$apply();  // Needed for $location.path() to succeed
         });
-
-
   }
 ]);
 
