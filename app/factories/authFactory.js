@@ -12,6 +12,7 @@ app.factory("authFactory", (firebaseURL) => {
       let authData = ref.getAuth();
 
       if (authData) {
+        currentUserData = authData;
         return true;
       } else {
         return false;
@@ -38,6 +39,7 @@ app.factory("authFactory", (firebaseURL) => {
           } else {
             console.log("authWithPassword method completed successfully");
             currentUserData = authData;
+            console.log("currentUserData", currentUserData);
             resolve(authData);
           }
         });
