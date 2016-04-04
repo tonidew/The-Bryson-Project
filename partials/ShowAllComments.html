@@ -1,8 +1,8 @@
-
-<h4>Reader Comments</h4>
+<br>
+<h3>Forum Comments from Our Readers . . .</h3>
 <div ng-repeat="comment in myForum">
-	<p>{{comment.text}}</p>
-	<button ng-click="deleteComment(comment.uid, comment.id)">Delete My Comment</button>
+	<p class="readableFont">{{comment.text}}</p>
+	<br>
+	<button ng-click="deleteComment(comment.uid, comment.id)" class="delBut">Delete my comment</button>
 </div>
-
 
