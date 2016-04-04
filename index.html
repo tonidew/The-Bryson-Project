@@ -3,8 +3,6 @@
 	<head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <!-- 	<link href="lib/bower_components/bootstrap-star-rating/css/star-rating.min.css" media="all" rel="stylesheet" type="text/css"/>
-  	<! theme file for rating system --> 
   <link rel="stylesheet" href="css/styles.css">
 	<title>The Bryson Project - Capstone</title>
 	</head>
@@ -16,23 +14,43 @@
   			<h1 class="nameBryson">The Bryson Project</h1><br>
   		 	<small class="smallHed">Helping Families with Special Needs Navigate Nashville and the Middle Tennessee region</small>
   		</div>
-      <div class="mainImage">
-      <img src="images/Bryson25mph.jpg" alt="Bryson25mph" width="430px" height="600px" class="image-responsive">
-      </div>
+      <!-- <section> -->
+      <img src="images/Bryson25mph.jpg" alt="Bryson25mph" width="520px" height="650px" class="photo">
+      <!-- <div id="one"> -->
       <h2 class="introHed">About this site...</h2>
-          <p class= "intro">This website was created to share tips and information about venues, events and programs that are easily accessible to our family and friends with special needs.
+          <p class= "intro">This website was created to share tips and information about Middle Tennessee venues, events and programs that are easily accessible to our family and friends with special needs.
           </p> 
-      <!-- <div class= "rightScreen"> -->
-        <!-- <h1> More links</h1> -->
-      <!-- </div> -->
 
-      <div ng-app="BrysonApp">
-        <div ng-view>
+      <!-- </section> -->
+      <div ng-app="BrysonApp" class="bhd">
+        <div ng-view class="bigPoppy">
+      </div>
+      <br>
+      </div>
+     
+       <section class="theLists">
+        <ul class="tester"><h4>-- Local Resources --</h4>
+            <li><a href="">State services for everyone</li>
+            <li><a href="">More State service</li>
+            <li><a href="">And even more services</li>
+            <li><a href="">And even more services</li>
+        </ul> 
+        </section>
+        <br>
+     <section>
+       <ul class="fedServices">
+       <h4>-- National Resources --</h4>
+            <li><a href="">State services for everyone</li>
+            <li><a href="">More State service</li>
+            <li><a href="">And even more services</li>
+            <li><a href="">And even more services</li>
+        </ul> 
+     </section>  
+
           
-         <!--  <br> -->
-
-      </div>
-      </div>
+         
+      
+    
     
      
 
@@ -41,8 +59,7 @@
       
 <!-- This is the last div marker for the entire div container -->
       </div>
-
-    
+      
 
 
       
@@ -55,15 +72,16 @@
   	<script src="app/app.js"></script>
     <script src="app/controllers/NavNashForumCtrl.js"></script>
   	<script src="app/controllers/NavigatingNashvilleCtrl.js"></script>
-  	<!-- // <script src="app/controllers/HelpListCtrl.js"></script> -->
   	<script src="app/factories/authFactory.js"></script>
     <script src="app/controllers/ShowAllCommentsCtrl.js"></script>
     <!-- Latest compiled and minified JavaScript -->
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	   <!-- <jQuery (necessary for Bootstrap's JavaScript plugins) -->
  	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
  	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  	<br>
-  	<!-- <footer>&copy;Toni Dew 2016</footer> -->
+  	
+  
+    
+  	<!-- <footer class="bottomFeeder">&copy;Toni Dew 2016</footer> -->
 	</body>
 	</html>
